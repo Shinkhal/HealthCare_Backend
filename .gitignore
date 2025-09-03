@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Environment
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Migrations cache (optional, if you want clean repo)
+*/migrations/__pycache__/
